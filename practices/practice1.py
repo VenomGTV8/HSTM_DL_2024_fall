@@ -34,7 +34,7 @@ class MLP(nn.Module):
         super(MLP, self).__init__()
         self.fc1 = nn.Linear(2, 64)
         self.fc2 = nn.Linear(64, 32)
-        self.fc3 = nn.Linear(32, 1)
+        self.fc3 = nn.Linear(32, 2)
 
     def forward(self, x):
         x = torch.relu(self.fc1(x))
