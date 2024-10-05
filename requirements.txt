@@ -3,5 +3,9 @@ pandas
 torch
 tqdm
 pytorch-lightning
+segmentation-models-pytorch
+torchmetrics
 matplotlib
 scikit-learn
+opencv-python-headless>=4.7.0.68
+jupyterlab
